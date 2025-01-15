@@ -11,6 +11,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import { api } from "@/lib/network";
 
 export const BentoGrid = ({
   className,
@@ -66,10 +67,17 @@ export const BentoGridItem = ({
     },
   };
 
-  const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
-    navigator.clipboard.writeText(text);
-    setCopied(true);
+  const handleCopy = async () => {
+    try{
+      const res = await api.get("/api/email");
+      console.log(res)
+      navigator.clipboard.writeText(res.email);
+      setCopied(true);
+    }
+    catch(err){
+      console.log(err);
+    }
+    
   };
 
   return (

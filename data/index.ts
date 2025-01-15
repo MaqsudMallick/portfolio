@@ -1,7 +1,7 @@
 export const navItems = [
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently working on Drone based IoT software for Data capturing, logistics, survery, mapping and beyond",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,49 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Hippocampus Segmentation",
+    des: "3D segmentation of hippocampus using ensemble of Deep Learning",
+    img: "/hippocampus.webp",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://github.com/MaqsudMallick/HippocampusSegmentation_ISI/blob/main/report.pdf",
+    linkText: "Check Report",
+    pinText: "HippocampusSegmentation.pdf"
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Fly High - Flight booking",
+    des: "Simplify your flight booking experience with Fly High.",
+    img: "/fly-high.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://fly-high-chi.vercel.app/",
+    pinText: "fly-high-chi.vercel.app"
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Shiny Made - Translation Service",
+    des: "A personal translation website where I post novels I found online.",
+    img: "/translation-site.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://shiny-made.github.io/",
+    pinText: "Shiny Made"
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "eConnect - Chat App",
+    des: "A chat app meant for users to connect with friends and family.",
+    img: "/chat.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://ju-chat-connect.web.app/",
+    pinText: "ju-chat-connect.web.app"
+  },
+  {
+    id: 4,
+    title: "juVoiceConnect - Voice Room App",
+    des: "A voice room app meant for users to connect with friends and family.",
+    img: "/voice-room.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://ju-voice-connect.vercel.app/",
+    pinText: "ju-voice-connect-vercel.app"
   },
 ];
 
@@ -173,31 +187,17 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Developer - Zendot",
+    desc: "Worked with popular web frameworks such as React.js, Angular, and Next.js to develop responsive and interactive user interfaces. Developed robust backend systems using Node.js and Express.js using both PostgreSQL and MongoDB databases.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "React Native Contractor - Infomaticae",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native across multiple iterations using popular ui tools like tailwind and material ui.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -205,13 +205,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    link: "https://github.com/MaqsudMallick",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/maqsud-mallick-6a290415b"
   },
 ];
