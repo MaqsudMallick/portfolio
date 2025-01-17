@@ -18,7 +18,7 @@ const Home = () => {
         <Suspense fallback={<div>Loading...</div>}>
         <FloatingNav navItems={navItems} />
         <Hero />
-        {/* <Grid /> */}
+        <Grid />
         {/* <RecentProjects /> */}
         {/* <Clients /> */}
         {/* <Experience /> */}
