@@ -17,7 +17,7 @@ const Home = () => {
       <div className="max-w-7xl w-full">
         <Suspense fallback={<div>Loading...</div>}>
         <FloatingNav navItems={navItems} />
-        {/* <Hero /> */}
+        <Hero />
         {/* <Grid /> */}
         {/* <RecentProjects /> */}
         {/* <Clients /> */}
