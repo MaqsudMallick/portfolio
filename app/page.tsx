@@ -21,9 +21,9 @@ const Home = () => {
         {/* <Grid /> */}
         <RecentProjects />
         {/* <Clients /> */}
-        {/* <Experience /> */}
-        {/* <Approach /> */}
-        {/* <Footer /> */}
+        <Experience />
+        <Approach />
+        <Footer />
         </Suspense>
       </div>
     </main>
